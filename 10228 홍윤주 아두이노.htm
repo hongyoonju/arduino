@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" lang="ko-KR">
+<head>
+	<meta name="facebook-domain-verification" content="gerusg6vy8xzx48qgw840pzh18a5rr" />
+	<meta name="naver-site-verification" content="4252c5bac974d40e221fa8c2c372501ff415b754"/>
+	<meta name="naver-site-verification" content="0def20e92a02247e15d57895a4920fb5b645c2a5" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9 ie8" dir="ltr" lang="ko-KR"> <![endif]-->
+	<!--[if IE 9]> <html class="no-js lt-ie10 ie9" dir="ltr" lang="ko-KR"> <![endif]-->
+	
+	<title>아두이노 종류 알아보기</title>	
+	<!-- 검색 엔진 최적화 -->
+	<meta name="viewport" content="width=1280" /><!--"viewport 추가-->
+	<meta name="google-translate-customization" content="c811b7c3afca48-67f75636e214636e-gba19aab3e0d42ef4-b"></meta>
+		<meta name="description" content="다양한 아두이노 종류에 대하여 소개합니다.">
+	<meta name="keywords" content="아두이노, 종류, 기타">
+	<meta name="author" content="코코아팹">
+		<!-- 모바일 대응 -->
+	<!-- 파비콘 추가 -->
+	<link rel="icon" href="/assets/img/img-favicon-kocoa.ico" type="image/x-icon"> <!-- IE -->
+	<link rel="shortcut icon" href="/assets/img/img-favicon-kocoa.png" type="image/x-icon">
+	
+	<!-- 스타일 로드 -->
+	<!-- 
+	<link rel="stylesheet" type="text/css" href="/assets/css/basic.css?ver=20161011">
+	<link rel="stylesheet" type="text/css" href="/assets/css/common.css?ver=20151230"> 
+	<link rel="stylesheet" type="text/css" href="/assets/css/font.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/sub_banner.css?ver=20161011">
+	<link rel="stylesheet" type="text/css" href="/assets/css/navBar.css">
+	-->
+	
+		
+	<link rel="stylesheet" type="text/css" href="/assets/css/2.0/header.css?ver=20230608150334">
+	<link rel="stylesheet" type="text/css" href="/assets/css/2.0/footer.css?ver=20230608144617">
+
+	<!-- 스크립트 로드 -->
+	<script type="text/javascript" src="/assets/js/base64.js"></script> 
+	<script type="text/javascript" src="/assets/js/md5.js?ver=20161111"></script>
+	<script type="text/javascript" src="/assets/js/jquery-1.9.1.min.js"></script>
+	<script src="/assets/lib/jquery-migrate-1.4.1.min.js"></script>
+
+		
+	<script type="text/javascript" src="/assets/js/base.js?ver=20230608144610"></script>
+ 	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js'></script>
+	<script src="/assets/js/navi.js?ver=20230608144614"></script>
+ 	<script src="/assets/js/search.js?ver=20230608144615"></script>
+
+	<!--[if lt IE 9]>
+	<script src="assets/lib/html5shiv-printshiv.min"></script>
+	<![endif]-->
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-54742310-1', 'auto');
+		ga('require', 'displayfeatures');
+		ga('send', 'pageview');
+	</script>
+	
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1322491591147872'); // Insert your pixel ID here.
+		fbq('track', 'PageView');
+	</script>	
+	
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1322491591147872&ev=PageView&noscript=1"/>
+	</noscript>
+
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Meta Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '477506720443791');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=477506720443791&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code -->
+
+	<!-- Meta Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '691368385242294');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=691368385242294&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code --><link rel="stylesheet" type="text/css" href="/assets/css/2.0/tutorial.css?ver=20230608144619"><link rel="stylesheet" type="text/css" href="/assets/js/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css?ver=20230608144714">
+<script type="text/javascript" src="/assets/js/ckeditor/ckeditor.js?ver=20230608144633"></script><script type="text/javascript" src="/assets/js/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js?ver=20230608144710"></script><script type="text/javascript" src="/assets/js/post_view.js?ver=20230608144615"></script></head>
+<!-- 네이버 연관검색 노출  -->
+<span itemscope="" itemtype="http://schema.org/Organization">
+	<link itemprop="url" href="http://www.kocoafab.cc"> <a
+	itemprop="sameAs" href="https://www.facebook.com/kocoafab"></a> <a
+	itemprop="sameAs"
+	href="https://www.youtube.com/channel/UCYG74JkR2Qp0G5amAE7BVIw/videos"></a>
+</span>
+
+<body>
+	<script>
+	// 로그인 체크 
+	function checkLogin() {
+		var result = false;
+					alert("로그인 후 이용해주세요.");
+				return result;
+	}
+	</script>
+	<!-- 시작: page-header -->
+	<div></div>
+	<header id="topBar" class="page-header fixed bg-w">
+		<!-- 메인이 아닐 시 header에 class추가 :bg-w -->
+		<div class="max-w">
+			<h1 class="brand">
+				<a href="/" class="logo" aria-label="코코아팹"></a>
+			</h1>
+			<nav class="page-navigation">
+				<ul id="nav">
+					<li class="menu js-header" id="header1"><a href="/edu/introduce" class="menu-1depth" style="font-size:17px;"> 코코아팹 </a>
+						<ul class="menu-2depth menu-list2">
+							<li><a href="/edu/introduce"> 소개 </a></li>
+							<li><a href="/k_blog"> 안내/소식 </a></li>
+						</ul>
+					</li>
+
+					<li class="menu js-header" id="header2"><a href="/edu/curriculum" class="menu-1depth" style="font-size:16px;"> SW ·AI교육 </a>
+						<ul class="menu-2depth menu-list2">
+							<li><a href="/edu/curriculum"> 커리큘럼 </a></li>
+							<li><a href="/edu/handout"> 수업자료 </a></li>
+						</ul></li>	
+
+					<!--	<li><a href="/edu">교육문의</a></li>  -->
+					<li class="menu js-header" id="header3"><a
+						href="/product/orangeboard" class="menu-1depth" style="font-size:17px;">제품</a>
+						<ul class="menu-2depth menu-list3">
+							<li class="menu-icon1"><a href="/product/orangeboard">오렌지보드 시리즈</a>
+								<ul class="menu-3depth">
+									<li><a href="/product/orangeboard">- 오렌지보드</a></li>
+									<li><a href="/product/orangeble">- 오렌지보드 BLE</a></li>
+									<li><a href="/product/orangenano">- 오렌지보드 Nano</a></li>
+									<li><a href="/product/orangewifiplus">- 오렌지보드 WiFi+</a></li>
+								</ul>
+							</li>
+							<li class="menu-icon2">									
+								<a href="/product/aicococam">인공지능 시리즈</a>
+								<ul class="menu-3depth">
+									<li><a href="/product/aicococam">- Ai코코캠</a></li>
+									<li><a href="/product/hellococo">∟ Hello, 마이코코 <br>&nbsp;&nbsp;&nbsp;&nbsp;(마이크로비트 확장 키트)</a></li>
+								</ul>
+							</ui>
+							<br>
+							<a href="/product/genius">지니어스키트 시리즈</a>
+								<ul class="menu-3depth">
+									
+								<li><a href="/product/gkblock">- 지니어스키트 블록</a></li>
+									<li class="line2"><a href="/product/genius">-  지니어스키트 스타터팩  </a></li>
+								</ul>
+							</li>
+							<li class="menu-icon2"><a href="/product/smartmobility">실습키트 시리즈</a>
+								<ul class="menu-3depth">
+									<li><a href="/product/smartmobility">-  스마트 모빌리티 키트</a></li>
+									<!-- <li><a href="/product/smartmobilityExt"> └ 확장 액세서리  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(주행 매트)</a></li> -->
+									<li><a href="/product/smartmobilityExt"> └ 확장 액세서리 (주행 매트)</a></li>
+									<li><a href="/product/smartmobilityAssembly"> └ 조립 서비스 (초등 권장) </a></li>
+									<li><a href="/product/smarthome">-  스마트 홈 키트</a></li>
+									<li><a href="/product/acryliclamp">-  아크릴램프</a></li>
+									<li><a href="/product/finedust">-  미세먼지 측정기 PRO</a></li>
+									<li><a href="/product/robo">-  로봇팔키트 Hello,Robo</a></li>
+									<li><a href="/product/smilepot">-  스마일팟 화분키트</a></li>
+									<li><a href="/product/handwasher">-  자동 손 세정제 키트</a></li>
+									<li><a href="/product/aircleaner">-  공기청정기 키트</a></li>
+								</ul>
+							</li>
+							<!-- <li class="menu-icon3"><a href="/product/paperlamp?product=basic">전도성펜키트</a>
+								<ul class="menu-3depth">
+									<li><a href="/product/paperlamp?product=basic">- 페이퍼램프 기초편</a></li>
+									<li><a href="/product/paperlamp?product=application">- 페이퍼램프
+											응용편</a></li>
+								</ul>
+							</li> -->
+							<li class="menu-icon4"><a href="/product/schoolpack">전도성펜키트 </a>
+								<ul class="menu-3depth">
+									<li><a href="/product/paperlamp?product=basic">- 페이퍼램프 기초편 (1인)</a></li>
+									<!-- <li><a href="/product/paperlamp?product=application">- 페이퍼램프 응용편 (1인)</a></li> -->
+									<li><a href="/product/schoolpack?product=starter">- 스타터키트 (3인)</a></li>
+									<li><a href="/product/schoolpack?product=infinity">- 무한상상키트 (5인)</a></li>
+									<li><a href="/product/schoolpack?product=acrylic">- 드로잉아크릴램프키트 (5인)</a></li>
+									<li><a href="/product/schoolpack?product=sunflower">- 해바라기키트 (5인)</a></li>
+									<li><a href="/product/schoolpack?product=christmas">- 크리스마스카드키트 (3인)</a></li>
+									</a>
+								</ul>
+							</li>
+							<li class="menu-icon5 last">
+								<ul class="menu-3depth">
+									<li>
+										<!-- <a class="estimate" target="_blank" href="https://docs.googlqqe.com/forms/d/e/1FAIpQLSe5rcAR1tUdlgD6ZQEMWHOr45GA9QyQGY60rUhkx5Dnpa715Q/viewform">견적요청하기</a> -->
+										<a class="estimate" target="_blank" href="https://drive.google.com/file/d/18sm1_eyLPN4_7YmnfVrcMh1xyuXVGnPV/view?usp=sharing"> 브로슈어 다운받기 </a> 
+										<!-- 0927 브로슈어 링크 변경 -->
+									</li>
+									<!-- <li>
+										<a class="estimate" target="_blank" href="https://smartstore.naver.com/kocoafab">공식스토어 바로가기</a>
+									</li> -->
+									<!-- <li>
+										<a class="estimate" target="_blank" href="https://kocoafab.cc/tutorial/view/793">기술 문의 안내</a>
+									</li> -->
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- 삭제 <li><a href="/pick">픽</a></li> -->
+					<li class="menu js-header" id="header4"><a href="/edu" class="menu-1depth" style="font-size:17px;">문의</a>
+						<ul class="menu-2depth menu-list2">
+							<li><a href="/edu">교육문의</a></li>
+							<li><a href="/tutorial/view/793">기술문의</a></li>
+						</ul>
+					</li>
+
+					<li><a target="_blank" href=" https://smartstore.naver.com/kocoafab" style="font-size:17px;">스토어</a></li>
+
+					<!-- 삭제 <li><a href="/pick">픽</a></li> -->
+					<li class="menu js-header" id="header5"><a href="/tutorial/all?level=1&page=0" class="menu-1depth" style="font-size:17px;"> 자료 공간 </a>
+						<ul class="menu-2depth menu-list2">
+							<li><a href="/tutorial/all?level=1&page=0">튜토리얼</a></li>
+							<li><a href="/make">프로젝트</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</nav>
+		</div>
+
+		<div id="morphsearch" class="morphsearch">
+			<form class="morphsearch-form">
+								<!--회원가입전 : 시작-->
+				<!-- <a href="/join" class="morphsearch-sign on">회원가입</a>  -->
+				<a class="morphsearch-sign on" id="morphsearch-login">로그인</a>
+				<!--회원가입전 : 끝-->
+								<input class="morphsearch-input" type="search" name="main_search"
+					id="main_search" placeholder="Search..." />
+				<button class="morphsearch-submit" type="button"
+					onclick="javascript:search();">Search</button>
+			</form>
+			<div class="login-area">
+				<!-- morphsearch-content  -->
+				<h1 class="brand">
+					<a href="#" class="logo-w240"></a>
+				</h1>
+				<div>
+					<div>
+						<p>
+							코코아팹은 누구나 창의적 아이디어를 현실로 만들어 낼 수 있도록 <br /> 만들고, 공유하고, 배울 수 있는 터전이
+							되고자 합니다.
+						</p>
+					</div>
+					<div class="input-info">
+						<input type="text" id="login_id" placeholder="id"
+							value=""
+							autofocus /> <input type="password" id="password"
+							placeholder="password" />
+						<button type="button" id="login_button">로그인</button>
+						<br />
+						<!--에러메세지 클래스 추가 : on-->
+						<div class="login-status error on" id="login-status"></div>
+						<div class="check-id">
+							<input type="checkbox" id="rememberme"
+								 />
+							<span>아이디저장</span>
+						</div>
+					</div>
+				</div>
+				<div>
+					<p>
+						아이디와 비밀번호를 잊으셨나요?<span><a href="/user/findid">아이디 / 비밀번호 찾기</a></span>
+					</p>
+					<p>
+						코코아팹 회원이 아니신가요? <span><a href="/join">회원가입</a></span>
+					</p>
+				</div>
+			</div>
+
+			<div class="morphsearch-content">
+				<div class="dummy-column" id="recommanded_users"></div>
+				<div class="dummy-column" id="popular_posts"></div>
+				<div class="dummy-column" id="latest_posts"></div>
+			</div>
+			<!-- /morphsearch-content -->
+			<span class="morphsearch-close"></span>
+		</div>
+		<!-- /morphsearch -->
+	</header>	<!-- content_wrap -->
+<!-- 	<div id="content_wrap"> -->
+<div class="page-main mainPadding">
+		<!-- sub banner -->
+		<div class="tutorial_banner_area">
+			<div class="sub_banner">
+				<p class="title">참고자료</p>
+				<p class="copy">아두이노, 오렌지보드 등의 오픈소스하드웨어를 사용하는데 필요한 것들을 알아봅니다.</p>
+			</div>
+		</div>
+		<!-- // sub banner -->    
+		<!-- location -->
+		<div class="location_area">
+			<div class="location">
+					 <ul class="menu">
+						<!-- 선택 시 li 에 on class 추가됨 -->
+						<li  class="home">
+							<a href="#"><img src="/assets/img/location_home.png" alt="홈"/></a>   
+						</li>
+						<li  class="depth1">
+							<a href="#"><p>학습</p></a> 
+						</li>
+						<li  class="depth2" id="gnb_sub">
+							<a style="cursor:pointer;"><p>참고자료</p></a>
+							<ul class="sub"> <!-- 필요시 sub클래스에 on -->
+								<li><a href="/learn/1/">부품설명</a>
+								<li><a href="/tutorial/all?level=1&page=0">초급</a></li>
+								<li><a href="/tutorial/all?level=2&page=0">중급</a></li>
+								<li><a href="/tutorial/all?level=3&page=0">고급</a></li>
+								<li><a href="/getstarted">참고자료</a></li> 
+								<li><a href="/k-download">다운로드</a></li> 
+							</ul>
+						</li>
+						<li class="bg">
+						</li>
+					</ul>
+				<div class="bg2">
+				</div>
+				<div class="bg3">
+				</div>
+			</div>
+		</div>
+		<!-- //location -->
+	</div><!-- read -->
+<div class="contents_area">
+	<div class="read">
+		<!-- title 영역 -->
+		<div class="title_area">
+			<h1>아두이노 종류 알아보기</h1>
+			<div class="info">
+				<p class="date">
+					2014-08-06 14:49:16</p>
+							</div>
+			<div class="line"></div>
+		</div>
+
+		<!-- 게시물 영역 -->
+		<div class="contents">
+		<h2>&nbsp;</h2>
+
+<p>아두이노의 종류는 상당히 많다. 그 중에 몇개만 알아보자.</p>
+
+<p><br />
+<br />
+<strong>Arduino UNO</strong><br />
+가장 널리쓰이고 보편적인 아두이노 UNO이다. 큰 특징은 없고 현재 버전은 R3까지 나와있고 초중급자들이 사용하기에 제일 무난하다.</p>
+
+<table class="white" style="height:298px; width:725px">
+	<tbody>
+		<tr>
+			<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="../../../data/140806023136.png" style="height:272px; width:363px" /></td>
+			<td>
+			<p><span style="color:#333333">-Microcontroller ATmega328&nbsp;<br />
+			<span style="color:#333333">-Operating Voltage 5V&nbsp;<br />
+			<span style="color:#333333">-Input Voltage (recommended) 7-12V&nbsp;<br />
+			<span style="color:#333333">-Input Voltage (limits) 6-20V&nbsp;<br />
+			<span style="color:#333333">-Digital I/O Pins 14 (of which 6 provide PWM output)&nbsp;<br />
+			<span style="color:#333333">-Analog Input Pins 6&nbsp;<br />
+			<span style="color:#333333">-DC Current per I/O Pin 40 mA&nbsp;<br />
+			<span style="color:#333333">-DC Current for 3.3V Pin 50 mA&nbsp;<br />
+			<span style="color:#333333">-Flash Memory 32 KB (ATmega328) of which 0.5 KB </span></span></span></span></span></span></span></span></span><br />
+			<span style="color:#333333"><span style="color:#333333"><span style="color:#333333"><span style="color:#333333"><span style="color:#333333"><span style="color:#333333"><span style="color:#333333"><span style="color:#333333"><span style="color:#333333">used by bootloader&nbsp;<br />
+			<span style="color:#333333">-SRAM 2 KB (ATmega328)&nbsp;<br />
+			<span style="color:#333333">-EEPROM 1 KB (ATmega328)&nbsp;<br />
+			<span style="color:#333333">-Clock Speed 16 MHz</span></span></span></span></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Arduino ATmega2560</strong><br />
+아두이노UNO의 고사양버전으로 UNO에 사용되는 ATmega328칩을 ATmega2560으로 교체하였고, <a href="http://terms.naver.com/entry.nhn?docId=1221561&amp;cid=40942&amp;categoryId=32832" target="_blank">플래시 메모리</a>가 UNO의 8배인 256kb로 증가하였다.<br />
+하드웨어로 지원되는 시리얼포트가 4개로 증가하였고 입출력핀 또한 UNO에는 아날로그, 디지털 핀을 합쳐 20개 였다면 ATmega2560에는 아날로그, 디지털 핀을 합쳐 70개가 존재한다.&nbsp;전에는 UNO와 Mega시리즈의 하드웨어 핀 배열의 불일치로 호환성 면에서 문제가 있었지만&nbsp;새 버전에서는 호환이 가능하게 하였다. 입출력 핀이 많아 다수의 디바이스 제어에 적합하다.</p>
+
+<table class="white" style="height:229px; width:724px">
+	<tbody>
+		<tr>
+			<td><img alt="" src="../../../data/140806023557.png" style="height:176px; width:361px" /></td>
+			<td>-Microcontroller ATmega2560 (R3)&nbsp;<br />
+			-Operating Voltage 5V&nbsp;<br />
+			-Input Voltage (recommended) 7-12V&nbsp;<br />
+			-Input Voltage (limits) 6-20V&nbsp;<br />
+			-Digital I/O Pins 54 (of which 14 provide PWM output)&nbsp;<br />
+			-Analog Input Pins 16&nbsp;<br />
+			-DC Current per I/O Pin 40 mA&nbsp;<br />
+			-DC Current for 3.3V Pin 50 mA&nbsp;<br />
+			-Flash Memory 256 KB (8 KB 부트로더 사용)&nbsp;<br />
+			-SRAM 8 KB&nbsp;<br />
+			-EEPROM 4 KB&nbsp;<br />
+			-Clock Speed 16 MHz</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>ATmega2560ADK</strong><br />
+ATmega2560ADK는 ATmega2560에 googleADK(<a href="http://terms.naver.com/entry.nhn?docId=1348050&amp;cid=40942&amp;categoryId=32848" target="_blank">안드로이드</a>)기능을 추가한 것으로 <a href="http://terms.naver.com/entry.nhn?docId=858089&amp;cid=42346&amp;categoryId=42346" target="_blank">USB host controller</a>가 추가되어있다. 아두이노와 안드로이드의 연동이 필요할경우 필요한 보드이다.</p>
+
+<table class="white" style="height:238px; width:724px">
+	<tbody>
+		<tr>
+			<td><img alt="" src="../../../data/140806024500.png" style="height:189px; width:362px" /></td>
+			<td>-ATmega2560 Microcontroller<br />
+			-Operating Voltage 5V<br />
+			-Input Voltage (recommended) 7-12V<br />
+			-Input Voltage (limits) 6-20V<br />
+			-Digital I/O Pins 54 (of which 14 provide PWM output)<br />
+			-Analog Input Pins 16-DC Current per I/O Pin 40 mA<br />
+			-DC Current for 3.3V Pin 50 mA<br />
+			-Flash Memory 256 KB of which 8 KB used by bootloader<br />
+			-SRAM 8 KB<br />
+			-EEPROM 4 KB<br />
+			-Clock Speed 16 MHz</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Arduino Leonardo</strong><br />
+아두이노 레오나르도는 ATmega32u4를 기반으로 한 보드이다. 다른보드와의 차이점은 USB통신기능이 내장되어 있어 USB연결을 위한 추가 드라이버가 필요가 없다. 컴퓨터에 연결했을 때 마우스나 키보드 같은 장치로 인식시킬 수 있다.</p>
+
+<table class="white" style="height:49px; width:725px">
+	<tbody>
+		<tr>
+			<td><img alt="" src="../../../data/140806031258.jpg" style="height:243px; width:365px" /></td>
+			<td>
+			<p>-Microcontroller ATmega32u4</p>
+
+			<p>-Operating Voltage 5V</p>
+
+			<p>-Input Voltage (recommended) 7-12V</p>
+
+			<p>-Input Voltage (limits) 6-20V</p>
+
+			<p>-Digital I/O Pins &nbsp;20</p>
+
+			<p>-PWM Channels &nbsp;7</p>
+
+			<p>-Analog Input Channels 12</p>
+
+			<p>-DC Current per I/O Pin 40 mA</p>
+
+			<p>-DC Current for 3.3V Pin &nbsp;50 mA</p>
+
+			<p>-Flash Memory &nbsp; 32 KB (ATmega32u4) of which 4 KB<br />
+			used by bootloader</p>
+
+			<p>-SRAM 2.5 KB &nbsp; (ATmega32u4)</p>
+
+			<p>-EEPROM 1 KB &nbsp; (ATmega32u4)</p>
+
+			<p>-Clock Speed &nbsp;16 MHz&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<strong>Arduino Mini</strong><br />
+아두이노Mini는 브레드보드에 꼽아서 사용하는데 적합하게 만들어진 보드이다. 크기가 작고 ATmega328을 사용한다.</p>
+
+<table class="white" style="height:57px; width:729px">
+	<tbody>
+		<tr>
+			<td><img alt="" src="../../../data/140806032226.png" style="height:239px; width:363px" /></td>
+			<td>-Microcontroller ATmega328&nbsp;<br />
+			-Operating Voltage 5V&nbsp;<br />
+			-Input Voltage 7-9 V&nbsp;<br />
+			-Digital I/O Pins 14 (of which 6 provide PWM output)&nbsp;<br />
+			-Analog Input Pins 8 (of which 4 are broken out onto pins)&nbsp;<br />
+			-DC Current per I/O Pin 40 mA&nbsp;<br />
+			-Flash Memory 32 KB (of which 2 KB used by bootloader)&nbsp;<br />
+			-SRAM 2 KB&nbsp;<br />
+			-EEPROM 1 KB&nbsp;<br />
+			-Clock Speed 16 MHz&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><br />
+<br />
+<strong>Arduino Micro</strong><br />
+아두이노 레오나르도의 미니버전이다. 아두이노와 Adafruit팀과 협력해서 만든 보드로 기판이 작은 대신 칩이 몇 개 생략 되있기 때문에 가격이 저렴한 편이다.<br />
+<img alt="" src="../../../data/140811042344.jpg" style="height:164px; width:367px" /><br />
+<br />
+<strong>Arduino Nano</strong><br />
+아두이노 나노는 아두이노 우노의 미니버전이라고 보면 된다. 보드는 작지만 가격은 만만치 않다.<br />
+<img alt="" src="../../../data/140811042557.jpg" style="height:145px; width:320px" /></p>
+
+<p><br />
+<strong>Arduino LilyPad</strong><br />
+모양이 독특하게 생긴 이 보드는 이름과 같이 꽃처럼 생겼지만, 의류용으로 나온 별도의 제품이다.<br />
+포트에 연결된 패드가 매우 널어서 전도성실을 연결하여 꿰멜 수 있도록 디자인 되었다.<br />
+<img alt="" src="../../../data/140811041834.jpg" /><br />
+<br />
+<strong>Arduino Due</strong><br />
+메가와 똑같은 크기의 보드이지만 칩이 다르다. 듀라는 뜻은 2라는 뜻으로 UNO(1)에 이은 두 번째라는 뜻이다. 기존 아두이노가 8비트 마이크로 컨트롤러를 사용한데 비해서 듀는 32비트의 마이크로 컨트롤러를 사용하는 제품이다. 성능은 매우 좋지만 대부분의 아두이노 실드들이 5볼트로 작동하는데 비해서 듀는 3.3볼트로 작동하기 때문에 사용하기 모호하다는 단점이 있다.<br />
+<img alt="" src="../../../data/140811042716.jpg" style="height:187px; width:352px" /><br />
+<br />
+<br />
+<strong>Arduino&nbsp;Esplora</strong><br />
+이 아두이노도 레오나르도처럼 키보드와 마우스 같은 주변기기로 인식한다. 특징이라면 보드에 센서와 같은 것들이 많이 달려있다는 점이다. RGB LED, 피에조, 마이크, 광센서, 온도센서, 조이스틱 등등이 달려있다. 여러 센서가 달린 만큼 가격이 좀 비싸다.<br />
+<img alt="" src="../../../data/140811043159.jpg" style="height:156px; width:349px" /><br />
+<br />
+&nbsp;</p>		</div>
+
+		<!-- 좋아요 -->
+		<div class="sns" id="sns">
+			<ul>
+							<li class="like">
+					<a onclick="postLike(this, 75);" style="cursor: pointer"><img src="/assets/img/contents_like_default.png" id="comment_like_img"></a>
+				</li>
+							<li class="text on">
+					<a onclick="postLike(this, 75);" style="cursor: pointer">좋아요</a>
+				</li>
+				<li>
+					<a onclick="sorry_ready()"></a>
+				</li>
+				<li>
+					<a onclick="shareToFB();"><img src="/assets/img/read_facebook.png"></a>
+				</li>
+				<li>
+					<a onclick="shareToTwit();"><img src="/assets/img/read_twitter.png"></a>
+				</li>
+				<li>
+					<a onclick="shareToGoogle();"><img src="/assets/img/read_google.png"></a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 글쓴이 -->
+		<div class="write_zone">
+					<div class="photo" style="background-image: url('/data/member/201512231752094185.png') no-repeat scroll center center / 90px auto rgba(0,0,0,0); background-size:90px;">
+				<img alt="" src="/data/member/201512231752094185.png" width="90px" height="90px">
+			</div>
+			<div class="cover" onclick="goProfile(360);" style="cursor: pointer;"></div>
+			<div class="profile">
+				<p class="name" onclick="goProfile(360);" style="cursor: pointer;">kocoafabeditor					<img src="/assets/img/tutorial_bar.png"><span>				</p>
+				<p class="introduce">항상 진취적이고, 새로운 것을 추구하는 코코아팹 에디터입니다!
+</p>
+			</div>
+		</div>
+		<!-- //글쓴이 -->
+
+		<!-- 태그 -->
+		<div class="tag">
+			<img src="/assets/img/tag.png"> <span>아두이노, 종류, 기타</span>
+		</div>
+		<!--//태그 -->
+		<!-- 댓글 -->
+		<div id="post_comment">
+					</div>
+		<!-- 댓글 입력 -->
+		<div class="comment-edit">
+			<div class="photo">
+								<div style="background: url('/assets/img/default_image.png') no-repeat scroll center center / 50px auto rgba(0, 0, 0, 0); background-size:50px;"></div>
+				<div class="cover"></div>
+			</div>
+			<div class="text-input">
+				<textarea name="comment" id="comment"></textarea>
+				<input type="button" class="btn-greenline" value="확인" onclick="goAddComment(75);">
+			</div>
+		</div>
+		<!-- //댓글 입력 -->
+		<div class="btnset-right">
+			<input type="submit" value="돌아가기" class="btn-green" onclick="location.href='/getstarted'">
+					</div>
+		<div class="otherpost">
+			<p class="title">카테고리 다른글</p>
+			<div class="bar"></div>
+			<ul>
+					<li class=""><a href="/tutorial/view/68">노크(Knock) 센서-진동 감지 및 출력<p class="date">2014-08-06</p></a></li>
+					<li class=""><a href="/tutorial/view/67">LED-모스부호로 S.O.S 깜빡이기<p class="date">2014-08-06</p></a></li>
+					<li class="now"><a href="/tutorial/view/75">아두이노 종류 알아보기<p class="date">2014-08-06</p></a></li>
+					<li class=""><a href="/tutorial/view/66">IDE 설치하기-Mac OSX<p class="date">2014-08-05</p></a></li>
+					<li class=""><a href="/tutorial/view/64">서보모터 각도 제어하기<p class="date">2014-08-05</p></a></li>
+					</ul>
+		</div>
+	</div>
+	<!-- btn top-->
+	<div id="make_scroll_top">
+		<a href="#"><img src="/assets/img/top.png"></a>
+	</div>
+</div></div>	
+
+<!-- content_wrap end -->
+<!-- footer -->
+<footer class="page-footer">	
+	<div class="copyright max-w">
+		<div class="endImage">
+			<ul>
+				<li><a href="/access">이용약관</a></li>
+				<li><a href="/privacy">개인정보 취급방침</a></li>
+			</ul>
+
+			<div class="icon_kakao"><a href="http://pf.kakao.com/_grfPK/chat" target="_blank"><img src="../../assets/img/main6_kakao.png"><a></div>
+		</div>
+	
+<!-- 	
+		<ul class="social-icon">
+			<li class="icon_facebook"><a href="https://www.facebook.com/kocoafab" target="_blank">페이스북</a></li>
+			<li class="icon_google"><a href="https://plus.google.com/111209280331002426031/posts" target="_blank">구글</a></li>
+			<li class="icon_twitter"><a href="https://twitter.com/fabsocialmanage" target="_blank">트위터</a></li>
+			<li class="icon_youtube"><a href="https://www.youtube.com/channel/UCYG74JkR2Qp0G5amAE7BVIw" target="_blank">유튜브</a></li>
+		</ul>
+		<ul>
+			<li><a href="/access">이용약관</a></li>
+			<li><a href="/privacy">개인정보 취급방침</a></li>
+			<li><a href="mailto:contact@kocoa.or.kr">고객센터</a></li>
+		</ul>
+		<dl>
+			<dt>상호명</dt>
+			<dd>(주)네패스 kocoaFAB</dd>
+			<dt>대표자</dt>
+			<dd>이병구</dd>
+			<dt>사업자등록번호</dt>
+			<dd>303-81-05198</dd>
+			<dt>주소</dt>
+			<dd>서울시 서초구 남부순환로 2415 하임사옥</dd>
+			<dt>이메일</dt>
+			<dd><a href="mailto:contact@kocoa.or.kr">contact@kocoa.or.kr</a></dd>
+		</dl>
+		<p style="font-size:0.95em;padding-top:2em;">
+			<span style="margin: 0.3em 0 0 0; padding: 0 1.3em 0 0; border:1px solid #969696; display:inline-block;">
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+					<img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+				</a>
+				<span style="padding-left:1em; position:relative; top:-12px; ">코코아팹의 컨텐츠(저작물)는 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><span style="color:#fff;">크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.</span>
+			</span>
+		</p> -->
+		<!-- <p>© (주)네패스 kocoafab. 2015 all rights reserved</p> -->
+		
+	</div>
+</footer>
+<!--끝: .page-footer -->
+<script>
+	function addShare(id, base, fb_post_id) {
+
+		$.ajax({
+			type		: 'POST',
+			url			: '/share',
+			dataType	: 'json',
+			data		: {id: id, base : base, type : 'F', fb_post_id : fb_post_id}
+		});
+	}
+
+	function shareToFB() {
+
+		// 1021093421295179 // TEST APP ID 
+		// 1021088527962335 // LIVE APP ID 
+		
+		var width	= 575,
+	    height 		= 400,
+	    left   		= ($(window).width()  - width)  / 2,
+	    top    		= ($(window).height() - height) / 2,
+	   	url 		= "https://www.facebook.com/dialog/feed?app_id=1021088527962335&display=popup&amp;caption=kocoafab&link=http%3A%2F%2Fkocoafab.cc%2F%2Ftutorial%2Fview%2F75&name=%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8+%EC%A2%85%EB%A5%98+%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0&redirect_uri=http%3A%2F%2Fkocoafab.cc%2F%2Fclose%2F75%2Ftutorial",
+	    opts   		= 'status=1' +
+	             	',width='  + width  +
+	             	',height=' + height +
+	             	',top='    + top    +
+	             	',left='   + left;
+
+	    window.open(url, 'facebook', opts);
+
+	    return false;
+	}
+	
+	function shareToTwit() {
+	
+		var width  = 575,
+	    height = 400,
+	    left   = ($(window).width()  - width)  / 2,
+	    top    = ($(window).height() - height) / 2,
+	    url    = "https://twitter.com/share?text=%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8+%EC%A2%85%EB%A5%98+%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+	    opts   = 'status=1' +
+	             ',width='  + width  +
+	             ',height=' + height +
+	             ',top='    + top    +
+	             ',left='   + left;
+	
+	    window.open(url, 'twitter', opts);
+
+	    return false;
+	}
+	
+	function shareToGoogle() {
+	
+		var width  = 575,
+	    height = 600,
+	    left   = ($(window).width()  - width)  / 2,
+	    top    = ($(window).height() - height) / 2,
+	    url	   = "https://plus.google.com/share?url=http%3A%2F%2Fkocoafab.cc%2Ftutorial%2Fview%2F75",
+	    opts   = 'status=1' +
+	             ',width='  + width  +
+	             ',height=' + height +
+	             ',top='    + top    +
+	             ',left='   + left;
+	
+	    window.open(url, 'google', opts);
+
+		return false;
+	}
+</script>
+
+</body>
+</html>
